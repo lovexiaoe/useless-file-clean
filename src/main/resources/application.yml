@@ -1,0 +1,16 @@
+
+server:
+  servlet:
+    # 项目contextPath，即前缀。
+    context-path: /java_code
+
+hesicare:
+  uploadWinLoc: d:/file/upload/
+  uploadLinuxLoc: /file/upload/
+  accessPath: /file
+  # 每次最大上传文件数。
+  maxFileNumber: 9
+spring:
+  devtools:
+    restart:
+      enabled: true
